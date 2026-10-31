@@ -1,10 +1,7 @@
-
-
 def main() -> None:
-    unused = 42
     try:
         print("Hello from hw5!")
-    except:
+    except OSError:
         print("Something went wrong")
 
 
